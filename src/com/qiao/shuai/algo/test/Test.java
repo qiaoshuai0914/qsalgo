@@ -1,4 +1,4 @@
-package com.qiao.shuai.algo.test.baoding;
+package com.qiao.shuai.algo.test;
 
 import java.util.List;
 import java.util.stream.Collectors;

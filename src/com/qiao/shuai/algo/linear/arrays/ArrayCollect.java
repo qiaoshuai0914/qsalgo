@@ -1,8 +1,12 @@
-package com.qiao.shuai.algo.test.arrays;
+package com.qiao.shuai.algo.linear.arrays;
 
 import java.util.*;
 
-public class Solution {
+/**
+ * 线性表中的数组的常用题目的总结
+ *
+ */
+public class ArrayCollect {
 
     /**
      * 盛最多水的容器

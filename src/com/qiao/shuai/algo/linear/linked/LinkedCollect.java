@@ -4,14 +4,11 @@ public class LinkedCollect {
     class ListNode {
         int val;
         ListNode next;
-
         ListNode() {
         }
-
         ListNode(int val) {
             this.val = val;
         }
-
         ListNode(int val, ListNode next) {
             this.val = val;
             this.next = next;
@@ -19,6 +16,7 @@ public class LinkedCollect {
     }
     /**
      * 206. 反转链表
+     * 思路：递归，迭代
      * @param head
      * @return
      */
@@ -34,6 +32,8 @@ public class LinkedCollect {
 
     /**
      * 环形链表
+     * 思路：就是死记硬背哈哈
+     * 这个开始是快节点从第二个开始，慢节点从第一个开始
      * @param head
      * @return
      */
@@ -55,6 +55,7 @@ public class LinkedCollect {
 
     /**
      * 1. 环形链表 II
+     * 不能采用上面的，必须快慢指针都从第一个开始；
      * @param head
      * @return
      */
@@ -76,6 +77,7 @@ public class LinkedCollect {
 
     /**
      *  K 个一组翻转链表
+     *  思路就是：链表取出k个翻转，然后循环
      * @param head
      * @param k
      * @return
@@ -124,6 +126,8 @@ public class LinkedCollect {
 
     /**
      * 两两交换链表中的节点
+     * 每2个交换下，小技巧就是利用了哨兵节点；
+     * 很多时候链表都会在前面或者后面加一个节点，这样处理 不用特殊处理边界情况
      * @param head
      * @return
      */
